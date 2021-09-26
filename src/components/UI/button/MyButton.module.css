@@ -1,0 +1,19 @@
+.myBtn {
+  padding: 5px 15px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: teal;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: transparent;
+  border: 1px solid teal;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.myBtn:hover {
+  border-color: rgb(5, 77, 77)
+}
