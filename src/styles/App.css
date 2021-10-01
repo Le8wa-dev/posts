@@ -48,6 +48,15 @@ body {
   border: 2px solid green;
 }
 
+.post__btns {
+  margin-left: 30px;
+  flex-shrink: 0;
+  display: flex;
+}
+.post__btns > * + *  {
+  margin-left: 10px;
+}
+
 
 .post-enter {
   transform: translateX(-150px);
